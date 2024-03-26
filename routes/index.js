@@ -12,6 +12,7 @@ const paymentRoute = require("./payment.js");
 
 //her route u ilgili yol altında kullanıyoruz
 
+router.use("/users", usersRoute)
 router.use("/products", productRoute)
 router.use("/user", userRoute)
 router.use("/categories", categoryRoute)
